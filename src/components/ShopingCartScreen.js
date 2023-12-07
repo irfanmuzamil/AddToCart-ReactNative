@@ -17,7 +17,7 @@ const ShoppingCartScreen = ({ navigation }) => {
         )
       );
     } else {
-      
+
       setCartItems([...cartItems, { ...product, quantity: 1 }]);
     }
 
@@ -51,6 +51,7 @@ const ShoppingCartScreen = ({ navigation }) => {
   };
 
   return (
+    
     <View>
       <Text>Shopping Cart Screen</Text>
       <Button
